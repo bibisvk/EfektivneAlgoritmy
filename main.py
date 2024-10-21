@@ -1,3 +1,4 @@
+from InsertSort import InsertSort
 from MergeSort import MergeSort
 from QuickSort import QuickSort
 
@@ -9,3 +10,7 @@ if __name__ == '__main__':
     B = [5, 7, 1, 3, 4, 6, 9, 2, 8]
     MergeSort(B, 0, len(B)-1)
     print(B)
+
+    C = [5, 7, 1, 3, 4, 6, 9, 2, 8]
+    InsertSort(C)
+    print(C)
